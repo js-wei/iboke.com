@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
-            "version": "6.2.3",
+            "version": "6.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "8d6c6cc55186db87b7dc5009827429ba4e9dc006"
+                "reference": "f4db5a78a5ea468d4831de7f0bf9d9415e348699"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/8d6c6cc55186db87b7dc5009827429ba4e9dc006",
-                "reference": "8d6c6cc55186db87b7dc5009827429ba4e9dc006",
+                "url": "https://files.phpcomposer.com/files/guzzle/guzzle/f4db5a78a5ea468d4831de7f0bf9d9415e348699.zip",
+                "reference": "f4db5a78a5ea468d4831de7f0bf9d9415e348699",
                 "shasum": ""
             },
             "require": {
@@ -27,8 +27,11 @@
             },
             "require-dev": {
                 "ext-curl": "*",
-                "phpunit/phpunit": "^4.0",
+                "phpunit/phpunit": "^4.0 || ^5.0",
                 "psr/log": "^1.0"
+            },
+            "suggest": {
+                "psr/log": "Required for using the Log middleware"
             },
             "type": "library",
             "extra": {
@@ -66,7 +69,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2017-02-28T22:50:30+00:00"
+            "time": "2017-06-22T18:50:49+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -78,7 +81,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+                "url": "https://files.phpcomposer.com/files/guzzle/promises/a59da6cf61d80060647ff4d3eb2c03a2bc694646.zip",
                 "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646",
                 "shasum": ""
             },
@@ -194,7 +197,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jae-jae/CurlMulti/zipball/059f13241e15ddfe6155c032ef765e58233a5aab",
+                "url": "https://files.phpcomposer.com/files/jae-jae/CurlMulti/059f13241e15ddfe6155c032ef765e58233a5aab.zip",
                 "reference": "059f13241e15ddfe6155c032ef765e58233a5aab",
                 "shasum": ""
             },
@@ -223,16 +226,16 @@
         },
         {
             "name": "jaeger/http",
-            "version": "1.2",
+            "version": "1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jae-jae/Http.git",
-                "reference": "5a301b83254c9552ca9a9c0fb99523df8e799fba"
+                "reference": "2fb9e6bde8c42e3851c7968bd00046c299e45b5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jae-jae/Http/zipball/5a301b83254c9552ca9a9c0fb99523df8e799fba",
-                "reference": "5a301b83254c9552ca9a9c0fb99523df8e799fba",
+                "url": "https://files.phpcomposer.com/files/jae-jae/Http/2fb9e6bde8c42e3851c7968bd00046c299e45b5e.zip",
+                "reference": "2fb9e6bde8c42e3851c7968bd00046c299e45b5e",
                 "shasum": ""
             },
             "require": {
@@ -250,7 +253,7 @@
                 "MIT"
             ],
             "description": "HTTP 请求类,修改用于QueryList(http://querylist.cc )",
-            "time": "2016-09-21T06:09:50+00:00"
+            "time": "2017-07-25T07:15:08+00:00"
         },
         {
             "name": "jaeger/phpquery-single",
@@ -262,7 +265,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jae-jae/phpQuery-single/zipball/4b1dc2b2625a4a142f21a0b85a4254c327dfc5c4",
+                "url": "https://files.phpcomposer.com/files/jae-jae/phpQuery-single/4b1dc2b2625a4a142f21a0b85a4254c327dfc5c4.zip",
                 "reference": "4b1dc2b2625a4a142f21a0b85a4254c327dfc5c4",
                 "shasum": ""
             },
@@ -297,21 +300,24 @@
         },
         {
             "name": "jaeger/querylist",
-            "version": "V3.2.0",
+            "version": "V3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jae-jae/QueryList.git",
-                "reference": "700d56db49590a3080a94dc7a63ecab212e920ff"
+                "reference": "1a7864dcf8d979d6d57a2a3508f2dd62ce3233d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/jae-jae/QueryList/700d56db49590a3080a94dc7a63ecab212e920ff.zip",
-                "reference": "700d56db49590a3080a94dc7a63ecab212e920ff",
+                "url": "https://files.phpcomposer.com/files/jae-jae/QueryList/1a7864dcf8d979d6d57a2a3508f2dd62ce3233d6.zip",
+                "reference": "1a7864dcf8d979d6d57a2a3508f2dd62ce3233d6",
                 "shasum": ""
             },
             "require": {
-                "jaeger/phpquery-single": "^0.9.5",
+                "jaeger/phpquery-single": "^0.9",
                 "php": ">=5.3.0"
+            },
+            "suggest": {
+                "monolog/monolog": "Log support"
             },
             "type": "library",
             "autoload": {
@@ -336,7 +342,7 @@
                 "phpQuery",
                 "spider"
             ],
-            "time": "2017-04-20T05:53:32+00:00"
+            "time": "2017-06-09T04:25:07+00:00"
         },
         {
             "name": "jaeger/querylist-ext-aquery",
@@ -348,7 +354,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jae-jae/QueryList-Ext-AQuery/zipball/bfbf417363bb8f0caec2573f02d24ba2e921aeef",
+                "url": "https://files.phpcomposer.com/files/jae-jae/QueryList-Ext-AQuery/bfbf417363bb8f0caec2573f02d24ba2e921aeef.zip",
                 "reference": "bfbf417363bb8f0caec2573f02d24ba2e921aeef",
                 "shasum": ""
             },
@@ -381,7 +387,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jae-jae/QueryList-Ext-DImage/zipball/620fa53e7c255860793d7897de7a5b7c7b8d674f",
+                "url": "https://files.phpcomposer.com/files/jae-jae/QueryList-Ext-DImage/620fa53e7c255860793d7897de7a5b7c7b8d674f.zip",
                 "reference": "620fa53e7c255860793d7897de7a5b7c7b8d674f",
                 "shasum": ""
             },
@@ -418,7 +424,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jae-jae/QueryList-Ext-Multi/zipball/2c633480411b1cea31d93b2c1b754eb0bc79fea8",
+                "url": "https://files.phpcomposer.com/files/jae-jae/QueryList-Ext-Multi/2c633480411b1cea31d93b2c1b754eb0bc79fea8.zip",
                 "reference": "2c633480411b1cea31d93b2c1b754eb0bc79fea8",
                 "shasum": ""
             },
@@ -455,7 +461,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jae-jae/QueryList-Ext-Request/zipball/27d06b35fb810b919d242a3dbbdac0e1cb838bc4",
+                "url": "https://files.phpcomposer.com/files/jae-jae/QueryList-Ext-Request/27d06b35fb810b919d242a3dbbdac0e1cb838bc4.zip",
                 "reference": "27d06b35fb810b919d242a3dbbdac0e1cb838bc4",
                 "shasum": ""
             },
@@ -492,7 +498,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "url": "https://files.phpcomposer.com/files/php-fig/http-message/f6561bf28d520154e4b0ec72be95418abe6d9363.zip",
                 "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
                 "shasum": ""
             },
@@ -534,16 +540,16 @@
         },
         {
             "name": "topthink/framework",
-            "version": "v5.0.8",
+            "version": "v5.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/top-think/framework.git",
-                "reference": "02f8e8a9099c534d1b2c38385fcf1fa5404694d4"
+                "reference": "e428c43ec5138c989cfdb38ac300a964ad77f9cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/top-think/framework/02f8e8a9099c534d1b2c38385fcf1fa5404694d4.zip",
-                "reference": "02f8e8a9099c534d1b2c38385fcf1fa5404694d4",
+                "url": "https://files.phpcomposer.com/files/top-think/framework/e428c43ec5138c989cfdb38ac300a964ad77f9cb.zip",
+                "reference": "e428c43ec5138c989cfdb38ac300a964ad77f9cb",
                 "shasum": ""
             },
             "require": {
@@ -581,7 +587,7 @@
                 "orm",
                 "thinkphp"
             ],
-            "time": "2017-04-28T09:33:15+00:00"
+            "time": "2017-07-05T03:35:06+00:00"
         },
         {
             "name": "topthink/think-captcha",
@@ -593,7 +599,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/top-think/think-captcha/zipball/0c55455df26a1626a60d0dc35d2d89002b741d44",
+                "url": "https://files.phpcomposer.com/files/top-think/think-captcha/0c55455df26a1626a60d0dc35d2d89002b741d44.zip",
                 "reference": "0c55455df26a1626a60d0dc35d2d89002b741d44",
                 "shasum": ""
             },
@@ -629,7 +635,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/top-think/think-image/zipball/8586cf47f117481c6d415b20f7dedf62e79d5512",
+                "url": "https://files.phpcomposer.com/files/top-think/think-image/8586cf47f117481c6d415b20f7dedf62e79d5512.zip",
                 "reference": "8586cf47f117481c6d415b20f7dedf62e79d5512",
                 "shasum": ""
             },
@@ -661,16 +667,16 @@
         },
         {
             "name": "topthink/think-installer",
-            "version": "v1.0.11",
+            "version": "v1.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/top-think/think-installer.git",
-                "reference": "4c6e1ebecd1afce3f4ccc47e147d61bbe1bf641d"
+                "reference": "1be326e68f63de4e95977ed50f46ae75f017556d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/top-think/think-installer/zipball/4c6e1ebecd1afce3f4ccc47e147d61bbe1bf641d",
-                "reference": "4c6e1ebecd1afce3f4ccc47e147d61bbe1bf641d",
+                "url": "https://files.phpcomposer.com/files/top-think/think-installer/1be326e68f63de4e95977ed50f46ae75f017556d.zip",
+                "reference": "1be326e68f63de4e95977ed50f46ae75f017556d",
                 "shasum": ""
             },
             "require": {
@@ -698,7 +704,7 @@
                     "email": "448901948@qq.com"
                 }
             ],
-            "time": "2016-12-01T09:08:45+00:00"
+            "time": "2017-05-27T06:58:09+00:00"
         }
     ],
     "packages-dev": [],
